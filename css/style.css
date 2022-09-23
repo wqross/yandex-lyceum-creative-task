@@ -101,11 +101,44 @@
   color: #fff;
 }
 
-.portfolio {
-  padding-top: 100px;
+.header__text-right {
+  -webkit-animation: bounce 1.6s linear infinite;
+  animation: bounce 2.1s linear infinite;
 }
 
-.portfolio__title {
+@-webkit-keyframes bounce {
+  25% {
+    -webkit-transform: translateY(-10px);
+  }
+  50%, 100% {
+    -webkit-transform: translateY(0);
+  }
+  75% {
+    -webkit-transform: translateY(10px);
+  }
+}
+
+@keyframes bounce {
+  25% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  50%, 100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  75% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+}
+
+.choose {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.choose__title {
   font-family: "Montserrat";
   font-weight: 700;
   font-size: 82px;
