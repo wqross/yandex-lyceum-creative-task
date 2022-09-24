@@ -242,13 +242,11 @@
 }
 
 .skills__progressbar {
-  --percentage: var(--value);
+  --percentage: (--value);
   --primary: #F1875E;
   --secondary: #3A3A3A;
   --size: 165px;
   margin: 0 auto;
-  -webkit-animation: soft-progress 2s 0.5s forwards;
-          animation: soft-progress 2s 0.5s forwards;
   width: var(--size);
   aspect-ratio: 1;
   border-radius: 50%;
