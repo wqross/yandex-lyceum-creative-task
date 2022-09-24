@@ -12,6 +12,10 @@
   padding-bottom: 92px;
 }
 
+.header img {
+  margin-right: 60px;
+}
+
 .header__top {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -100,8 +104,17 @@
 }
 
 .header__text-right {
-  -webkit-animation: bounce 1.6s linear infinite;
-  animation: bounce 2.1s linear infinite;
+  -webkit-animation: bounce 2.3s linear infinite;
+  animation: bounce 2.3s linear infinite;
+}
+
+body::-webkit-scrollbar {
+  width: 16px;
+  background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #F1875E;
 }
 
 @-webkit-keyframes bounce {
@@ -139,8 +152,8 @@
 .choose__title {
   font-family: "Montserrat";
   font-weight: 700;
-  font-size: 74px;
-  line-height: 74px;
+  font-size: 70px;
+  line-height: 70px;
   text-align: center;
   color: #3A3A3A;
 }
@@ -156,6 +169,7 @@
 
 .skills {
   margin-top: 15px;
+  padding-bottom: 85px;
 }
 
 .skills__inner {
@@ -321,6 +335,67 @@
   syntax: '<number>';
   inherits: true;
   initial-value: 0;
+}
+
+.about {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #10100d;
+}
+
+.about__inner {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about__right {
+  width: 55%;
+  display: block;
+}
+
+.about__right-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  font-size: 40px;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+.about__right-subtitle {
+  text-align: center;
+  margin-top: 5px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 35px;
+  color: #fff;
+}
+
+.about__image {
+  width: 90%;
+}
+
+.about__left {
+  width: 45%;
+  -webkit-animation: bounce 2.3s linear infinite;
+  animation: bounce 2.3s linear infinite;
+}
+
+.about__right-text {
+  margin-left: 55px;
+  margin-top: 30px;
+  line-height: 35px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 22px;
+  color: #fff;
 }
 
 @media only screen and (max-width: 1400px) {

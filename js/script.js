@@ -1,10 +1,10 @@
 // Typed JS
 let typeAdj = new Typed('#type_adj', {
-    strings: ['современный', 'крутой', 'креативный'],
+    strings: ['современный', 'творческий', 'креативный', 'уникальный', 'необычный', 'новаторский', 'качественный'],
     smartBackspace: true,
-    typeSpeed: 50,
-    backSpeed: 50,
-    backDelay: 1300,
+    typeSpeed: 60,
+    backSpeed: 60,
+    backDelay: 1400,
     loop: true,
 });
 
@@ -14,7 +14,7 @@ const skillsFills = document.querySelectorAll('.skills__fill');
 const skillsProgressbars = document.querySelectorAll('.skills__progressbar');
 
 let scrollNow = window.scrollY;
-const scrollChange = 609;
+const scrollChange = 570;
 
 function animOnScroll() {
     for (const skillsFill of skillsFills) {
