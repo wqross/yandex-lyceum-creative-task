@@ -6,6 +6,10 @@ $second-font: 'Poppins';
 
 $main-color: #F1875E;
 
+body {
+    overflow-x:hidden;
+}
+
 .container {
     max-width: 1650px;
     padding: 0 15px;
@@ -365,9 +369,7 @@ body::-webkit-scrollbar-thumb {
             box-shadow: 3px 2px 10px 6px rgba(34, 60, 80, 0.2);
         }
 
-        img:hover {
-            transform: translateY(-20px);
-        }
+        img:hover {transform: translateY(-20px);}
     }
 
     &__title {

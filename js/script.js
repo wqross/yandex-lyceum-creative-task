@@ -14,7 +14,7 @@ const skillsFills = document.querySelectorAll('.skills__fill');
 const skillsProgressbars = document.querySelectorAll('.skills__progressbar');
 
 let scrollNow = window.scrollY;
-const scrollChange = 570;
+const scrollChange = 590;
 
 function animOnScroll() {
     for (const skillsFill of skillsFills) {
@@ -38,3 +38,7 @@ window.addEventListener('scroll', () => {
         }
     }
 });
+
+// AOS JS
+
+AOS.init({ duration: 1500 });
