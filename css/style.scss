@@ -762,3 +762,135 @@ body::-webkit-scrollbar-thumb {
         font-size: 16px;
     }
 }
+
+@media only screen and (max-width: 350px) {
+
+    .header__text-right img {
+        margin: 70px auto;
+        display: block;
+        width: 75% !important;
+    }
+    .header__text {
+        margin-top: 100px;
+    }
+    .header__top {
+        text-align: center;
+    }
+    .header__logo {
+        font-size: 19px !important;
+    }
+    .header__nav-link {
+        height: 40px;
+        width: 40px;
+    }
+    #header__right-social1 {
+        margin: 12px 6px;
+    }
+    #header__right-social2 {
+        margin: 7px 7px;
+    }
+    .container {
+        max-width: 300px;
+    }
+    .header__logo {
+        font-size: 19px;
+    }
+    .header__text {
+        display: block;
+    }
+    .header__text-title {
+        text-align: center;
+        font-size: 41px;
+        line-height: 41px;
+    }
+    .header__text-subtitle {
+        text-align: center;
+        font-size: 15px;
+        margin-top: -20px;
+    }
+    .header__text-right img {
+        margin-left: auto;
+        display: block;
+        width: 70%;
+    }
+    .choose__title, .works__title {
+        font-size: 38px;
+        line-height: 40px;
+    }
+    .choose {
+        padding-bottom: 100px;
+    }
+    .skills__inner {
+        display: block;
+    }
+    .skills__tech, .skills__soft {
+        width: 100%;
+    }
+    .skills__title {
+        font-size: 31px;
+        text-align: center; 
+        line-height: 4-px;
+    }
+    .skills__tech-subtitle, .skills__tech-percent, .skills__soft-name {    
+        font-size: 14px !important;
+        line-height: 14px !important;
+    }
+    .skills__soft {
+        margin-top: 90px;
+    }
+    .about__inner {
+        display: block;
+    }
+    .about__left {
+        width: 120%;
+        display: block;
+        margin: 0 auto;
+    }
+    .about__right {
+        display: block;
+        width: 100%;
+        margin-top: 75px;
+    }
+    .about__right-text {
+        display: block;
+        text-align: center;
+        margin: 20px auto;
+    }
+    .about__right-subtitle {
+        font-size: 19px !important;
+    }
+    .skills__progressbar:after {
+        font-size: calc(var(--size) / 5);
+    }
+    .skills__progressbar {
+        --size: 120px;
+    }
+    .about__right-title {
+        font-size: 27px;
+        line-height: 27px;
+    }
+    .about__right-subtitle {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .about__right-text {
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .footer__text {
+        font-size: 23px;
+    }
+    .works__col img {
+        width: 95%;
+    }
+    .works__row {
+        margin: 0 auto;
+        display: block;
+    }
+    .works__col img {
+        margin-top: 40px;
+    }
+    .footer__text {
+        font-size: 15px;
+    }
+}

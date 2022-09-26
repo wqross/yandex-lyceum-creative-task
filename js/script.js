@@ -40,10 +40,14 @@ window.addEventListener('scroll', () => {
 });
 
 // PRELOADER
+let preloader = document.querySelector('.preloader__container');
+
 window.onload = () => {
     document.body.style.overflow = 'hidden';
     window.setTimeout(() => {
         document.body.classList.add('loaded');
         document.body.style.overflowY = 'visible';
     }, 2500);
-}; 
+    
+};
+setTimeout(() => preloader.style.display = 'none', 2700);
