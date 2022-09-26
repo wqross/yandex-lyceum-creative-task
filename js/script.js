@@ -39,5 +39,11 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// AOS JS
-AOS.init({ duration: 1500 });
+// PRELOADER
+window.onload = () => {
+    document.body.style.overflow = 'hidden';
+    window.setTimeout(() => {
+        document.body.classList.add('loaded');
+        document.body.style.overflowY = 'visible';
+    }, 2500);
+}; 
