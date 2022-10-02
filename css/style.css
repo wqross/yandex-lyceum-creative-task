@@ -960,7 +960,7 @@ body::-webkit-scrollbar-thumb {
     font-size: 23px;
   }
   .works__col img {
-    width: 95%;
+    width: 100%;
   }
   .works__row {
     margin: 0 auto;
@@ -970,7 +970,7 @@ body::-webkit-scrollbar-thumb {
     margin-top: 40px;
   }
   .footer__text {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 /*# sourceMappingURL=style.css.map */
