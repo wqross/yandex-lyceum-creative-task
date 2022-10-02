@@ -763,8 +763,7 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
-@media only screen and (max-width: 350px) {
-
+@media only screen and (max-width: 535px) {
     .header__text-right img {
         margin: 70px auto;
         display: block;
@@ -777,45 +776,48 @@ body::-webkit-scrollbar-thumb {
         text-align: center;
     }
     .header__logo {
-        font-size: 19px !important;
+        font-size: 15px !important;
     }
     .header__nav-link {
-        height: 40px;
-        width: 40px;
+        margin-right: 10px !important;
+        height: 30px;
+        width: 30px;
     }
     #header__right-social1 {
-        margin: 12px 6px;
+        margin: 9px 3px;
+        width: 75%;
     }
     #header__right-social2 {
-        margin: 7px 7px;
+        margin: 4px 2px;
+        width: 75%;
     }
     .container {
-        max-width: 300px;
+        max-width: 200px;
     }
     .header__logo {
-        font-size: 19px;
+        font-size: 15px;
     }
     .header__text {
         display: block;
     }
     .header__text-title {
         text-align: center;
-        font-size: 41px;
-        line-height: 41px;
+        font-size: 31px;
+        line-height: 32px;
     }
     .header__text-subtitle {
         text-align: center;
-        font-size: 15px;
-        margin-top: -20px;
+        font-size: 13px;
+        margin-top: -18px;
     }
     .header__text-right img {
         margin-left: auto;
         display: block;
-        width: 70%;
+        width: 85% !important;
     }
     .choose__title, .works__title {
-        font-size: 38px;
-        line-height: 40px;
+        font-size: 28px;
+        line-height: 26px;
     }
     .choose {
         padding-bottom: 100px;
@@ -827,9 +829,9 @@ body::-webkit-scrollbar-thumb {
         width: 100%;
     }
     .skills__title {
-        font-size: 31px;
+        font-size: 22px;
         text-align: center; 
-        line-height: 4-px;
+        line-height: 21px;
     }
     .skills__tech-subtitle, .skills__tech-percent, .skills__soft-name {    
         font-size: 14px !important;
@@ -857,21 +859,21 @@ body::-webkit-scrollbar-thumb {
         margin: 20px auto;
     }
     .about__right-subtitle {
-        font-size: 19px !important;
+        font-size: 15px !important;
     }
     .skills__progressbar:after {
         font-size: calc(var(--size) / 5);
     }
     .skills__progressbar {
-        --size: 120px;
+        --size: 100px;
     }
     .about__right-title {
-        font-size: 27px;
-        line-height: 27px;
+        font-size: 24px;
+        line-height: 24px;
     }
     .about__right-subtitle {
-        font-size: 20px;
-        line-height: 20px;
+        font-size: 17px;
+        line-height: 17px;
     }
     .about__right-text {
         font-size: 12px;
@@ -891,6 +893,6 @@ body::-webkit-scrollbar-thumb {
         margin-top: 40px;
     }
     .footer__text {
-        font-size: 15px;
+        font-size: 14px;
     }
 }
